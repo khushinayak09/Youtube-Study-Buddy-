@@ -1,0 +1,342 @@
+text,start,duration,rank
+today we will see network topology upon,0:00:00,5.701,50
+the completion of this session we will,0:00:04,4.17,50
+be able to understand various network,0:00:05,6.479,50
+topologies like bus star ring mesh and,0:00:08,6.719,50
+hybrid we will also understand what are,0:00:12,5.461,50
+the advantages and disadvantages of bus,0:00:14,6.711,50
+star ring mesh and hybrid topologies,0:00:17,6.209,50
+firstly we will start with what is a,0:00:21,5.47,50
+network topology we have some nodes and,0:00:23,5.461,50
+we have to arrange these nodes so that,0:00:27,4.44,50
+we can establish communication among all,0:00:29,5.22,50
+the nodes topology means arrangement of,0:00:31,5.489,50
+nodes of a computer network say I have,0:00:34,5.04,50
+to arrange all these nodes so that I can,0:00:37,4.41,50
+establish communication among all the,0:00:39,4.559,50
+nodes topology can be viewed as a layout,0:00:41,6.0,50
+of a computer network topology can be,0:00:44,5.011,50
+viewed as a physical topology and,0:00:47,4.73,50
+logical topology physical topology means,0:00:49,5.489,50
+where I am going to place all these,0:00:52,5.351,50
+nodes this is what physical topology say,0:00:54,4.89,50
+I can place all these three nodes in,0:00:57,4.05,50
+ground floor of my building I can also,0:00:59,4.081,50
+take this two nodes to the first floor,0:01:01,4.2,50
+of my building and the placement of,0:01:03,3.87,50
+these nodes is called as physical,0:01:05,4.589,50
+topology logical topology means how the,0:01:07,4.83,50
+data is going to flow from this node to,0:01:10,4.291,50
+this node this node may be in ground,0:01:12,4.71,50
+flow this node may be in first floor how,0:01:14,4.29,50
+I am going to deal with the data flow in,0:01:17,3.51,50
+the network that is viewed as the,0:01:18,4.8,50
+logical topology simply topology means,0:01:20,5.52,50
+the arrangement of nodes in such a way,0:01:23,4.59,50
+that we have to make communication among,0:01:26,5.37,50
+all the nodes we will see what are the,0:01:28,8.16,50
+various topologies bus ring star mesh,0:01:31,7.77,50
+and hybrid we will see one by one in,0:01:36,5.88,50
+detail bus topology in bus topology,0:01:39,6.0,50
+there is a common transmission medium,0:01:42,5.46,50
+and all nodes are connected to this,0:01:45,5.879,50
+transmission medium suppose if node gave,0:01:47,6.39,50
+wants to send some data to node B and it,0:01:51,5.311,50
+can send the data over this transmission,0:01:54,5.01,50
+medium and all nodes will receive this,0:01:56,5.28,50
+transmission that is the data now the,0:01:59,4.92,50
+problem with this approach is if you,0:02:01,5.43,50
+wants to send some data to be everyone,0:02:04,4.679,50
+will receive a copy of the data signal,0:02:07,4.59,50
+including B but all others will deny or,0:02:08,3.881,50
+reject this packet,0:02:11,3.88,50
+why because this data signal is intended,0:02:12,5.28,50
+to the recipient be and not to anyone,0:02:15,4.769,50
+else in the network so now we will see,0:02:18,3.99,50
+what is a bus topology as per the,0:02:20,4.261,50
+definition all data transmitted between,0:02:22,5.61,50
+nodes in the network is transmitted over,0:02:24,5.22,50
+this common transmission medium this is,0:02:27,4.23,50
+the common transmission medium and all,0:02:29,3.599,50
+nodes will receive the signal,0:02:31,4.589,50
+simultaneously this transmission medium,0:02:33,5.401,50
+is capable of sending as well as,0:02:36,4.801,50
+receiving the data so the data flow in,0:02:38,3.719,50
+this transmission medium is,0:02:41,4.38,50
+bi-directional it means data can flow in,0:02:42,5.85,50
+both direction we will see the,0:02:45,4.769,50
+advantages and disadvantages of bus,0:02:48,5.161,50
+topology since there is only one wire or,0:02:50,5.461,50
+the cable involved this transmission it,0:02:53,5.16,50
+is less expensive at the same time if,0:02:55,4.979,50
+you are going to construct a temporary,0:02:58,4.319,50
+Network where this is not going to last,0:03:00,4.53,50
+for a long then you can go for bus,0:03:03,5.04,50
+topology another advantage of having,0:03:05,5.911,50
+this network is that if any node failure,0:03:08,5.401,50
+please watch this this is a node failure,0:03:11,4.8,50
+and this node failure does not affect,0:03:13,5.069,50
+others and these are all the advantages,0:03:16,4.56,50
+of bus topology there are some,0:03:18,4.261,50
+disadvantages with this Network and this,0:03:20,4.169,50
+is obviously not a fault tolerant,0:03:22,3.78,50
+Network we have already seen what is a,0:03:24,4.081,50
+fault tolerant network fault tolerance,0:03:26,4.979,50
+means if there is a failure and this,0:03:28,5.04,50
+failure should not affect others but if,0:03:31,4.561,50
+this link this transmission medium is,0:03:33,5.04,50
+failed obviously the entire network goes,0:03:36,5.79,50
+down at the same time if this node wants,0:03:38,5.219,50
+to send some data to this node and there,0:03:41,3.78,50
+is a problem in this line so,0:03:44,4.29,50
+communication here can take place but,0:03:45,4.47,50
+the communication between this place,0:03:48,4.56,50
+will not happen why because this is not,0:03:50,5.099,50
+dealing with any alternative technique,0:03:53,4.62,50
+the only way for this computer to reach,0:03:55,4.921,50
+this computer is this line and there is,0:03:57,5.581,50
+no redundant line then that is why this,0:04:00,5.19,50
+network is not a fault tolerant network,0:04:03,4.98,50
+at the same time the cable length is,0:04:05,5.43,50
+limited to certain range also I have,0:04:08,4.979,50
+already mentioned if this node wants to,0:04:10,4.739,50
+send some data to this node everyone,0:04:13,4.261,50
+participating in this network will,0:04:15,4.291,50
+receive a copy of the signal so there is,0:04:17,4.41,50
+no security in this approach and that's,0:04:19,4.23,50
+the advantages and disadvantages of bus,0:04:21,3.44,50
+topology,0:04:24,3.23,50
+and coming to the second topology the,0:04:25,4.71,50
+ring topology a ring topology is a bus,0:04:27,5.25,50
+topology but in a closed loop if you,0:04:30,5.16,50
+observe this is a bus topology but this,0:04:32,5.04,50
+is a closed loop so here the nodes,0:04:35,4.5,50
+involved are peer-to-peer and LAN,0:04:37,5.13,50
+topology nodes it means there is no one,0:04:39,5.01,50
+in superior in this network and there is,0:04:42,4.02,50
+no one inferior in this network all,0:04:44,4.68,50
+nodes are with equal rights and that is,0:04:46,4.53,50
+why we call these nodes are peer-to-peer,0:04:49,5.1,50
+nodes and every node will have two,0:04:51,5.88,50
+connections one to each of its nearest,0:04:54,5.1,50
+neighbors and the communication is,0:04:57,5.46,50
+always unidirectional suppose if this,0:04:59,5.01,50
+node wants to send some data to this,0:05:02,4.2,50
+node and the network is set up like the,0:05:04,3.72,50
+flow of data should be in this direction,0:05:06,4.14,50
+and this node will send this data to,0:05:08,4.8,50
+this node and this node will forward the,0:05:11,3.93,50
+data to this node this node this node,0:05:13,3.75,50
+and finally it will be received by this,0:05:14,4.56,50
+node the communication will not happen,0:05:16,5.13,50
+directly like this the communication,0:05:19,4.32,50
+will be like this because the,0:05:21,3.87,50
+communication pattern of ring topology,0:05:23,4.65,50
+is always unidirectional and you may ask,0:05:25,5.07,50
+me how this communication will happen it,0:05:28,4.62,50
+is with the help of a token that is why,0:05:30,4.41,50
+we call this topology as a token ring,0:05:33,5.04,50
+topology now we will see how sending and,0:05:35,4.47,50
+receiving happens with the help of this,0:05:38,4.83,50
+token let this be a token whoever has,0:05:39,5.67,50
+this token it means it's their turn to,0:05:42,5.4,50
+send data for example if this node has,0:05:45,5.43,50
+the token it means it's the turn of this,0:05:48,4.71,50
+node to send the data after some time,0:05:50,4.11,50
+the token will be moved on to the next,0:05:53,4.38,50
+node it means that it's this computer's,0:05:55,4.53,50
+turn to send the data after some point,0:05:57,4.08,50
+of time the token will be passed on and,0:05:59,4.08,50
+this token will be circulated throughout,0:06:01,4.68,50
+this network it means whoever holds this,0:06:03,4.8,50
+token it's their time to send their data,0:06:06,4.26,50
+and this is how all nodes gets,0:06:08,3.9,50
+opportunity to send or receive the data,0:06:10,4.77,50
+just watch this example the token is,0:06:12,4.83,50
+circulated throughout this network it,0:06:15,4.38,50
+means whoever is holding this token it's,0:06:17,4.8,50
+their turn to send the data and this is,0:06:19,5.46,50
+what exactly a ring topology is,0:06:21,4.709,50
+coming to the advantages of ring,0:06:25,4.14,50
+topology it has better performance than,0:06:26,5.31,50
+bus topology because it is in a close to,0:06:29,5.61,50
+loop but the problem is if this link is,0:06:31,5.34,50
+a weak link this ring topology causes,0:06:34,4.23,50
+some bottleneck in the network because,0:06:37,4.021,50
+of this weak link at the same time all,0:06:39,4.68,50
+nodes are having equal access which is,0:06:41,4.259,50
+considered to be one of the advantages,0:06:43,3.989,50
+of ring topology and coming to the,0:06:45,4.56,50
+disadvantages of ring topology I have,0:06:47,3.78,50
+already mentioned it is unidirectional,0:06:50,4.111,50
+say if this node wants to send some data,0:06:51,5.431,50
+to this node it is very easy to send,0:06:54,4.92,50
+this way but link topology is a,0:06:56,4.409,50
+unidirectional communication pattern it,0:06:59,4.02,50
+has to send the data by crossing these,0:07:01,3.87,50
+many nodes and finally reach the,0:07:03,4.679,50
+destination and one of the disadvantages,0:07:05,5.341,50
+is being uni direction at the same time,0:07:07,5.131,50
+a single point of failure say this link,0:07:10,4.829,50
+is failed so the entire network is,0:07:13,5.01,50
+disrupted because of this a node failure,0:07:15,5.52,50
+or a link failure will definitely affect,0:07:18,5.28,50
+the entire network and this is what the,0:07:20,4.29,50
+primary disadvantage of a ring topology,0:07:23,4.829,50
+if there is very high load in the,0:07:25,4.891,50
+network then the performance of the,0:07:28,4.111,50
+network is getting degraded if this is,0:07:30,4.049,50
+going to send some confidential data to,0:07:32,4.139,50
+this computer but again this has to,0:07:34,4.201,50
+cross so many intermediary nodes in,0:07:36,3.691,50
+order to reach the destination and,0:07:38,3.87,50
+obviously there is no security in this,0:07:40,3.889,50
+ring topology,0:07:42,4.249,50
+never will see that third topology the,0:07:43,5.88,50
+star topology in this case every node is,0:07:46,4.77,50
+connected to each other,0:07:49,3.81,50
+but not directly but with the help of a,0:07:51,4.86,50
+central node this central node can be a,0:07:53,4.951,50
+hub or a switch we will deal elaborately,0:07:56,4.35,50
+about hub and switch in the upcoming,0:07:58,4.319,50
+lectures for time being you just make a,0:08:00,4.14,50
+note of this hub or a switch as a,0:08:02,4.35,50
+central device or a central node and,0:08:04,4.62,50
+this is going to do the entire,0:08:07,4.05,50
+centralized administration and all,0:08:09,4.23,50
+traffic must pass through the hub or a,0:08:11,4.65,50
+switch suppose if this node wants to,0:08:13,4.98,50
+send some data to this node so obviously,0:08:15,3.99,50
+this is going to send the data to the,0:08:18,3.39,50
+central node which is the hub or the,0:08:19,3.51,50
+switch here and it is the responsibility,0:08:21,3.78,50
+of this hub or switch to forward the,0:08:23,3.81,50
+data to this node that is the,0:08:25,2.46,50
+destination,0:08:27,3.18,50
+if you observe keenly in the previous,0:08:28,4.86,50
+cases there were chances for other nodes,0:08:30,4.831,50
+to receive a copy of the data but here,0:08:32,4.711,50
+if this node wants to send some data to,0:08:35,4.649,50
+this node and if this is going to be the,0:08:37,4.349,50
+path of this communication and there is,0:08:39,3.93,50
+no way for others to hear this,0:08:41,3.781,50
+communication or see this communication,0:08:43,3.931,50
+but there are some differences between,0:08:45,3.899,50
+hub or switch which will be dealt,0:08:47,4.11,50
+elaborately in the next lecture,0:08:49,3.93,50
+coming to the advantages and,0:08:51,4.109,50
+disadvantages of star topology it is,0:08:53,4.5,50
+definitely very easy to design and,0:08:56,4.441,50
+implement at the same time we have a,0:08:58,4.68,50
+centralized administrator here this is,0:09:00,5.01,50
+the hub or a switch if the switch has 24,0:09:02,5.28,50
+ports for example you can connect 24,0:09:05,4.979,50
+computers to the switch if you find that,0:09:08,4.92,50
+24 computers are not sufficient you have,0:09:10,4.65,50
+50 more computers you bring another,0:09:12,4.44,50
+switch and connect all the computers to,0:09:15,3.72,50
+that switch and again make a,0:09:17,3.091,50
+communication between this switch and,0:09:18,3.93,50
+this switch so that this network becomes,0:09:20,4.979,50
+a scalable network so star topology is,0:09:22,5.341,50
+easy to design and implement and there,0:09:25,5.011,50
+is a centralized administration and it,0:09:28,5.039,50
+is a scalable Network and star topology,0:09:30,5.969,50
+has a serious disadvantages to a failure,0:09:33,5.401,50
+in this central node will affect the,0:09:36,4.62,50
+entire network if this node that is the,0:09:38,4.769,50
+switch or the hub is failed no,0:09:41,4.62,50
+communication can take place at the same,0:09:43,5.49,50
+time if this node is overloaded with lot,0:09:45,6.18,50
+of traffic and lot of processing then,0:09:48,4.95,50
+the communication or the performance is,0:09:51,4.17,50
+affected that is what we call as a,0:09:53,4.471,50
+bottleneck you have to spend some money,0:09:56,4.74,50
+for purchasing this hub or a switch so,0:09:58,4.589,50
+obviously it is going to increase the,0:10:00,4.68,50
+cost so there are some disadvantages a,0:10:02,5.041,50
+single point failure is going to affect,0:10:05,4.35,50
+the whole network and there can be,0:10:07,4.589,50
+bottlenecks due to a overloaded hub or,0:10:09,5.22,50
+switch at the same time you have to,0:10:12,4.89,50
+spend more for purchasing this hub or a,0:10:15,5.461,50
+switch we can also have a variation of a,0:10:17,5.55,50
+star topology like this this is one star,0:10:20,5.279,50
+topology another star topology you can,0:10:22,4.62,50
+connect these to start apology's with,0:10:25,3.781,50
+the help of a repeater we will see about,0:10:27,4.08,50
+repeaters in the next lecture now the,0:10:29,4.469,50
+point to note is that two or more star,0:10:31,4.17,50
+topologies can be connected with each,0:10:34,3.531,50
+other like this,0:10:35,4.28,50
+and the last topology of the session is,0:10:37,3.81,50
+the mesh topology,0:10:40,4.081,50
+if you observe there are five nodes and,0:10:41,5.22,50
+if you observe this node is having a,0:10:44,6.0,50
+link to all other nodes likewise this,0:10:46,5.79,50
+node is having link to all other nodes,0:10:50,4.919,50
+so if you observe cleanly this is the,0:10:52,5.399,50
+topology where each node is directly,0:10:55,4.74,50
+connected to every other nodes in the,0:10:57,4.83,50
+network and thereby it provides 100%,0:10:59,5.971,50
+fault tolerant and reliability suppose,0:11:02,5.55,50
+if there is a link failure encounter,0:11:05,5.31,50
+here and this computer has another way,0:11:08,5.7,50
+to reach the destination if this link is,0:11:11,5.7,50
+failed this computer has so many ways to,0:11:13,5.37,50
+reach the destination this is one way,0:11:16,5.459,50
+this is another way and this is another,0:11:19,5.671,50
+way and this is another way there are so,0:11:22,4.56,50
+many ways for a node to reach the,0:11:24,4.829,50
+destination you will see the advantages,0:11:26,5.401,50
+and disadvantages numb the advantages of,0:11:29,4.68,50
+mesh topology are it is fault tolerant,0:11:32,4.89,50
+it means a failure is not going to,0:11:34,5.37,50
+affect the network at the same time you,0:11:37,4.56,50
+can rely upon this network because,0:11:39,3.901,50
+somehow your data will definitely reach,0:11:41,4.26,50
+the destination even if there are link,0:11:43,4.619,50
+failures and coming to the disadvantages,0:11:45,4.649,50
+if this is going to send a broadcast,0:11:48,4.321,50
+message broadcasting means one sender,0:11:50,4.261,50
+all receivers this broadcast will be,0:11:52,4.08,50
+forwarded to everyone in the network,0:11:54,3.57,50
+again this guy is going to do a,0:11:56,4.019,50
+broadcast to everyone in the network the,0:11:58,4.38,50
+same broadcast which is sent by this,0:12:00,4.471,50
+computer and it will also be received by,0:12:02,4.95,50
+other computers and those computers are,0:12:05,4.169,50
+going to format the same broadcast to,0:12:07,3.329,50
+the sender there are some issues with,0:12:09,3.841,50
+the broadcasting since mesh topology,0:12:11,4.921,50
+involves a lot of links so it is,0:12:13,5.01,50
+obviously an expensive one at the same,0:12:15,4.259,50
+time for smaller networks this mesh,0:12:18,4.709,50
+topology will work fine and it is really,0:12:20,5.101,50
+impractical if your network involves one,0:12:22,4.29,50
+thousand or two thousand computers or,0:12:25,3.57,50
+more than that these are all the,0:12:27,4.341,50
+disadvantages of a mesh topology,0:12:28,4.88,50
+now there is a question for you but this,0:12:31,3.93,50
+question need not to be answered in a,0:12:33,3.63,50
+very detailed manner just the name of,0:12:35,3.9,50
+the topology is sufficient what is the,0:12:37,4.68,50
+topology shown in the scenario if you,0:12:39,5.58,50
+observe there is a bus topology there is,0:12:42,5.88,50
+a star topology and mesh topology as,0:12:44,5.49,50
+well an all network are connected to,0:12:47,3.21,50
+each other,0:12:50,3.12,50
+can we give any single name for this,0:12:51,6.27,50
+topology yes we can give and this is an,0:12:53,6.27,50
+example for a hybrid topology where this,0:12:57,4.44,50
+topology can be with one or more,0:12:59,5.49,50
+different topologies and that's it guys,0:13:01,6.27,50
+we are at the end of the session I hope,0:13:05,4.56,50
+now you have understood what is bus,0:13:08,6.09,50
+topology star ring mesh and hybrid we,0:13:09,6.36,50
+also have dealt elaborately about the,0:13:14,4.2,50
+advantages and disadvantages of each,0:13:16,3.15,50
+topology,0:13:18,3.57,50
+I hope the session is informating and,0:13:19,5.87,50
+thank you guys for watching,0:13:21,3.26,50
+[Music],0:13:28,9.37,50
